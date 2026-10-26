@@ -76,3 +76,37 @@ h3 {
 p {
   margin-bottom: var(--space-3);
 }
+
+
+/* Colors and Reusable Components */
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: var(--space-4);
+  margin-bottom: var(--space-3);
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-primary);
+  border-radius: 6px;
+  font-size: var(--text-base);
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
