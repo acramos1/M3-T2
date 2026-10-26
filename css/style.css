@@ -161,6 +161,7 @@ nav a:focus {
   nav a {
     padding: var(--space-1);
     overflow-wrap: anywhere;
+    margin: 0;
   }
 
   img,
