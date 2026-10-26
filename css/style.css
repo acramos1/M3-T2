@@ -141,3 +141,32 @@ nav a:focus {
   background-color: var(--color-background);
   color: var(--color-text);
 }
+
+
+/* Responsive improvements for small screens */
+@media (max-width: 600px) {
+  body {
+    padding: var(--space-2);
+  }
+
+  main {
+    padding: var(--space-2);
+    min-width: 0;
+  }
+
+  nav {
+    gap: var(--space-1);
+  }
+
+  nav a {
+    padding: var(--space-1);
+    overflow-wrap: anywhere;
+  }
+
+  img,
+  input,
+  textarea {
+    max-width: 100%;
+  }
+}
+
