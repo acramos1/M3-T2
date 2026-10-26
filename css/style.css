@@ -110,3 +110,34 @@ a:hover {
 .button:hover {
   opacity: 0.85;
 }
+
+
+/* Navigation and Interaction States */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+}
+
+nav a {
+  display: inline-block;
+  color: var(--color-text);
+  padding: var(--space-2);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+nav a:focus {
+  outline: 3px solid var(--color-primary);
+  outline-offset: 3px;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
